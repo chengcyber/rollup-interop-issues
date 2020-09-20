@@ -1,0 +1,15 @@
+{
+  "name": "react-color-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prestart": "npm run build",
+    "start": "node --experimental-modules index.mjs"
+  },
+  "dependencies": {
+    "react-color": "^2.18.1"
+  }
+}
